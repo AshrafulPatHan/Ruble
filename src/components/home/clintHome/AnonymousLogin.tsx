@@ -3,7 +3,12 @@
 export default function AnonymousLogon(){
    return(
       <div>
-         AnonymsLogon
+         <h2></h2>
+         <div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
       </div>
    )
 }
