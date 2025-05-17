@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Logo from '@/assets/image/logo.svg'
+import Link from "next/link";
 
 
 export default function ClintNav() {
@@ -17,8 +18,8 @@ export default function ClintNav() {
                <p>TWITT</p>
             </div>
             <div className="flex flex-row items-center gap-4">
-               <button>Logon</button>
-               <button>Registration</button>
+               <Link href='/auth/log'>Logon</Link>
+               <Link href='/auth/registration'>Registration</Link>
             </div>
          </div>
       </div>
